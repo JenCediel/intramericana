@@ -1,0 +1,10 @@
+# Turn rewrite engine on
+Options +FollowSymlinks
+
+
+
+RewriteEngine on
+# map neat URL to internal URL
+RewriteRule ^login  login.php  [nc,qsa]
+RewriteRule ^solicitud  solicitud.php  [nc,qsa]
+RewriteRule ^dashboard  dashboard.php  [nc,qsa]
